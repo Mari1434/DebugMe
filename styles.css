@@ -60,3 +60,40 @@ p{
 color: rgb(255, 255, 255);
 
 }
+
+body{
+
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+.logocentral #logo {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 112px;
+  padding-bottom: 20px;
+  width: 400px;
+  height: auto;
+  max-width: 100%;
+}
+
+
+
+
+.navbar input {
+  width: 500px; /* Aumenta a largura da barra de pesquisa */
+  padding: 8px; /* Adiciona um espaçamento interno */
+  font-size: 20px; /* Ajusta o tamanho do texto */
+  border: 1px solid #ccc; /* Adiciona uma borda leve */
+  border-radius: 24px; /* Bordas arredondadas */
+}
+
+/* Para centralizar tudo */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
